@@ -1,6 +1,6 @@
 {
   "name": "xsefpm-spec",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "scripts": {
     "prepare": "json2ts -i ./spec/v3.spec.json -o ./index.d.ts"
   },
