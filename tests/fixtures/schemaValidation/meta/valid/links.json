@@ -1,4 +1,4 @@
 {
-    "package": "{\"manifest\":\"xsefpm/3\",\"meta\":{\"links\":{\"documentation\":\"www.readthedocs.com\",\"repository\":\"www.github.com\",\"website\":\"www.ethereum.org\"}}}",
-    "testCase": "valid"
+  "package": "{\"manifest\":\"xsefpm/3\",\"meta\":{\"links\":{\"documentation\":\"www.readthedocs.com\",\"repository\":\"www.github.com\",\"website\":\"www.ethereum.org\"}}}",
+  "testCase": "valid"
 }

@@ -1,9 +1,9 @@
 {
-    "package": "{\"manifest\":\"xsefpm/3\",\"version\":\"1\"}",
-    "testCase": "invalid",
-    "errorInfo": {
-        "errorCode": "N0002",
-        "errorPointer": "/",
-        "reason": "'name' is a dependency of 'version'"
-    }
+  "package": "{\"manifest\":\"xsefpm/3\",\"version\":\"1\"}",
+  "testCase": "invalid",
+  "errorInfo": {
+    "errorCode": "N0002",
+    "errorPointer": "/",
+    "reason": "'name' is a dependency of 'version'"
+  }
 }

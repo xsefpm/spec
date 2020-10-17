@@ -1,5 +1,4 @@
-sphinx-deployment
-=================
+# sphinx-deployment
 
 Automatic setup and deployment for [sphinx][] docs.
 
@@ -9,8 +8,7 @@ This project is intended to be used to deploy [sphinx][] project on:
 - [Rsync](http://en.wikipedia.org/wiki/Rsync)
 - PaaS services: [heroku](http://heroku.com/), etc.
 
-Usage
------
+## Usage
 
 **1. `$ make generate`**
 
@@ -59,9 +57,7 @@ To build the production docker image for the docs site, for example:
 $ make build_docker_image DOCKER_IMG_TAG=company/project-docs:develop
 ```
 
-
-Installation
-------------
+## Installation
 
 **1. Bash script**
 
@@ -69,14 +65,14 @@ Just run this bash script from your root git repository project and it's enough.
 
 You need to specify the `<docs_path>` to your sphinx docs directory:
 
-``` bash
+```bash
 $ cd <your_project>
 $ wget https://raw.githubusercontent.com/teracyhq/sphinx-deployment/develop/scripts/spxd.sh && chmod +x ./spxd.sh && ./spxd.sh -p <docs_path>
 ```
 
 For example:
 
-``` bash
+```bash
 $ cd my_project
 $ wget https://raw.githubusercontent.com/teracyhq/sphinx-deployment/develop/scripts/spxd.sh && chmod +x ./spxd.sh && ./spxd.sh -p ./docs
 ```
@@ -101,20 +97,17 @@ include sphinx_deployment.mk
 
 - Or do with commands on terminal:
 
-``` bash
+```bash
 echo '' >> Makefile
 echo 'include sphinx_deployment.mk' >> Makefile
 ```
-
 
 c.. To build with `travis-ci`, you need to copy these following files to your root project directory:
 
 - `.travis.yml`
 - `.travis/setup.sh`
 
-
-Auto-build with docker-compose
-------------------------------
+## Auto-build with docker-compose
 
 Make sure `docker` and `docker-compose` are installed and running.
 
@@ -133,14 +126,12 @@ To see the docs site logs, execute the following command:
 $ docker-compose logs -f docs
 ```
 
-
-Configuration
--------------
+## Configuration
 
 You need to configure these following deployment configurations following your project settings on
 `sphinx_deployment.mk` file.
 
-``` Makefile
+```Makefile
 # Deployment configurations from sphinx_deployment project
 
 # default deployment when $ make deploy
@@ -226,8 +217,7 @@ endif
 #######################################################################
 ```
 
-Continuous Integration Build
-----------------------------
+## Continuous Integration Build
 
 **1. `travis-ci`**
 
@@ -238,21 +228,17 @@ depending on the being-built branch.
 To configure secure token for `travis-ci`, please read the similar step described at
 http://blog.teracy.com/2013/08/03/how-to-start-blogging-easily-with-octopress-and-teracy-dev/
 
-
 **2. `jenkins`**
 
 //TODO
 
-
-Authors and contributors
-------------------------
+## Authors and contributors
 
 - Hoat Le: http://github.com/hoatle
 
 - Many thanks to http://octopress.org/docs/deploying/ for inspiration.
 
-License
--------
+## License
 
 BSD License
 

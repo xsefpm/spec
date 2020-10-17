@@ -1,4 +1,4 @@
 {
-    "package": "{\"manifest\":\"xsefpm/3\",\"meta\":{\"description\":\"this is a package.\"}}",
-    "testCase": "valid"
+  "package": "{\"manifest\":\"xsefpm/3\",\"meta\":{\"description\":\"this is a package.\"}}",
+  "testCase": "valid"
 }

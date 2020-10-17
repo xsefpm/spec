@@ -1,9 +1,9 @@
 {
-    "package": "{\"manifest\":\"xsefpm/3\",\"name\":\"ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp\",\"version\":\"1\"}",
-    "testCase": "invalid",
-    "errorInfo": {
-        "errorCode": "N0002",
-        "errorPointer": "/name",
-        "reason": "'ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp' does not match '^[a-z][-a-z0-9]{0,255}$'"
-    }
+  "package": "{\"manifest\":\"xsefpm/3\",\"name\":\"ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp\",\"version\":\"1\"}",
+  "testCase": "invalid",
+  "errorInfo": {
+    "errorCode": "N0002",
+    "errorPointer": "/name",
+    "reason": "'ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp' does not match '^[a-z][-a-z0-9]{0,255}$'"
+  }
 }

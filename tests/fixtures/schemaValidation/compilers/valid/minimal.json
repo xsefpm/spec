@@ -1,4 +1,4 @@
 {
-    "package": "{\"compilers\":[{\"name\":\"solc\",\"version\":\"0.4.8-commit.60cc166c\"}],\"manifest\":\"xsefpm/3\"}",
-    "testCase": "valid"
+  "package": "{\"compilers\":[{\"name\":\"solc\",\"version\":\"0.4.8-commit.60cc166c\"}],\"manifest\":\"xsefpm/3\"}",
+  "testCase": "valid"
 }

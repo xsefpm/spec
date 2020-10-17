@@ -1,4 +1,4 @@
 {
-    "package": "{\"manifest\":\"xsefpm/3\",\"meta\":{\"authors\":[\"list\",\"of\",\"authors\"]}}",
-    "testCase": "valid"
+  "package": "{\"manifest\":\"xsefpm/3\",\"meta\":{\"authors\":[\"list\",\"of\",\"authors\"]}}",
+  "testCase": "valid"
 }

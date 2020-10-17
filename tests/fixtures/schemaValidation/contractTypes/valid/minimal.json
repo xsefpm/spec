@@ -1,4 +1,4 @@
 {
-    "package": "{\"contractTypes\":{\"MyContract\":{}},\"manifest\":\"xsefpm/3\"}",
-    "testCase": "valid"
+  "package": "{\"contractTypes\":{\"MyContract\":{}},\"manifest\":\"xsefpm/3\"}",
+  "testCase": "valid"
 }

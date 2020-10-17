@@ -1,9 +1,9 @@
 {
-    "package": "{\"manifest\":\"xsefpm/2\"}",
-    "testCase": "invalid",
-    "errorInfo": {
-        "errorCode": "N0001",
-        "errorPointer": "/manifest",
-        "reason": "'xsefpm/2' is not one of ['xsefpm/3']"
-    }
+  "package": "{\"manifest\":\"xsefpm/2\"}",
+  "testCase": "invalid",
+  "errorInfo": {
+    "errorCode": "N0001",
+    "errorPointer": "/manifest",
+    "reason": "'xsefpm/2' is not one of ['xsefpm/3']"
+  }
 }
