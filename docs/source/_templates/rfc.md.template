@@ -1,14 +1,14 @@
 ---
-rfc: 
-title:
-author:
-discussions-to: 
-status: Draft
-type: Standards Track
-category:
-created: 
-replaces:
----
+rfc: {{ $@ }}
+title: {{ $@ }}
+author: {{ $@ }}
+discussions-to: {{ $@ }}
+status: Draft {{ $@ }}
+type: Standards Track {{ $@ }}
+category: {{ $@ }}
+created: {{ $@ }}
+replaces: {{ $@ }}
+--- 
 
 $if(titleblock)$
 $titleblock$
