@@ -1,4 +1,6 @@
+
 {
+      "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Package Manifest",
   "description": "XsefPM Manifest Specification",
   "type": "object",
