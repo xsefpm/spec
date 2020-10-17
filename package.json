@@ -1,0 +1,31 @@
+{
+  "name": "xsefpm-spec",
+  "version": "1.0.0",
+  "scripts": {
+    "prepare": "json2ts -i ./spec/v3.spec.json -o ./index.d.ts"
+  },
+  "files": [
+    "spec",
+    "examples",
+    "index.d.ts"
+  ],
+  "typings": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsefpm/xsefpm-spec.git"
+  },
+  "keywords": [
+    "package",
+    "manager",
+    "xsefpm"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/xsefpm/xsefpm-spec/issues"
+  },
+  "homepage": "https://github.com/xsefpm/xsefpm-spec#readme",
+  "devDependencies": {
+    "json-schema-to-typescript": "^5.5.0"
+  }
+}
