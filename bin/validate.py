@@ -9,14 +9,7 @@ def load_package_schema():
 
 
 FILES_TO_VALIDATE = (
-    "./examples/escrow/1.0.0.json",
-    "./examples/owned/1.0.0.json",
-    "./examples/piper-coin/1.0.0.json",
-    "./examples/safe-math-lib/1.0.0.json",
-    "./examples/standard-token/1.0.0.json",
-    "./examples/transferable/1.0.0.json",
-    "./examples/wallet-with-send/1.0.0.json",
-    "./examples/wallet/1.0.0.json",
+    "./examples/edifact/1.0.0.json",
 )
 
 
